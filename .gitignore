@@ -52,3 +52,12 @@ coverage.xml
 
 # Git
 .git/
+
+# Build artifacts
+dist/
+build/
+*.whl
+*.tar.gz
+
+# Ignore egg-info folder
+*.egg-info/
