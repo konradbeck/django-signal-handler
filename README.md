@@ -20,7 +20,7 @@ from typing import Any
 
 from django.db.models.signals import post_delete, post_save, pre_delete, pre_save
 
-from your_package_name.signal_handler import SignalHandler  # Replace with your package name.
+from signal_handler import SignalHandler
 from your_app.models import MyModel
 
 logger = logging.getLogger(__name__)
