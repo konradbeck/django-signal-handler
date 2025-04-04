@@ -1,10 +1,10 @@
-# Django Signal Handler Utility
+# Django Signal Handler Framework
 
 This package provides a base class, `SignalHandler`, for simplifying the handling of Django model signals. It streamlines the process of responding to `pre_save`, `post_save`, `pre_delete`, and `post_delete` signals by categorizing them into more specific methods.
 
 ## Installation
 
-You can install this utility using pip:
+You can install this framework using pip:
 
 ```bash
 pip install django-signal-handler
