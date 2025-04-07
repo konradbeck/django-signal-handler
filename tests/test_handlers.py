@@ -4,7 +4,7 @@ from unittest.mock import MagicMock
 import pytest
 from django.db.models.signals import post_delete, post_save, pre_delete, pre_save
 
-from signal_handler.handlers import SignalHandler
+from django_signal_handler.handlers import SignalHandler
 
 
 class MockModel:
