@@ -1,3 +1,3 @@
-from django_signal_handler import signals, handlers
+from django_signal_handler.handlers import SignalHandler
 
-__all__ = ["signals", "handlers"]
+__all__ = ["SignalHandler"]

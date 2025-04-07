@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="django_signal_handler",
-    version="0.1.5",
+    version="0.1.6",
     author="Konrad Beck",
     author_email="konradbeck101@gmail.com",
     description="A package for handling Django model signals.",
